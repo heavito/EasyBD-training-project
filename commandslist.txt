@@ -1,0 +1,16 @@
+/help - commands list
+/help "COMMAND" 1 (without "", it is not necessary to put 1) - Displays information about the database command. If 1 is added, then examples will be added to the explanation
+/exit - exit from programm
+-------------------------------------------\
+/CREATE - Creates a new table, table view, or other object in the database
+/DELETE - Deletes an existing table, table view, or other object in the database
+-------------------------------------------|
+/SELECT - Retrieves records from one or more tables
+/INSERT - Creates entries
+/UPDATE - Modifies records
+/DELETE - Deletes entries
+-------------------------------------------|
+/GRANT Grants the user rights
+/REVOKE Revokes user rights
+-------------------------------------------/
+

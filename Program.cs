@@ -7,11 +7,29 @@ namespace Programm
 {
     class Programm
     { 
-        static void Main(string[] args)
+        static int Main(string[] args)
         {
-            Console.WriteLine("Welcome to EasyBD");
             ExitProgramm exit = new ExitProgramm();
-            exit.exit(1);
+            Console.WriteLine("Welcome to EasyBD");
+            while (true) {
+                String? userpost = Console.ReadLine();
+                switch (userpost)
+                {
+                    case "/help":
+                        Console.WriteLine("lol");
+                        break;
+                    case "/exit":
+                        int status = exit.exit(0);
+                        if (status == 0)
+                        {
+                            return 0;
+                        }
+                        break;
+                    default:
+                        continue;
+                }
+            }
         }
+
     }
 }
