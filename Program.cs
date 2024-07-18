@@ -11,7 +11,7 @@ namespace Programm
         {
             Console.WriteLine("Welcome to EasyBD");
             ExitProgramm exit = new ExitProgramm();
-            exit.exit(0);
+            exit.exit(1);
         }
     }
 }
