@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 // 1 - отмена работы функции (возвращение в программу)
 internal class ExitProgramm
 {
-    public int exit(int exitCode)
+    public static int exit(int exitCode)
     {
         if (exitCode == 0)
         {
